@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Flappy Bird</title>
+    <style>
+      body { background-color: #000000; }
+      canvas { background-color: #222222; }
+    </style>
+  </head>
+  <body onload="init();">
+    <div align="center">
+      <canvas id="game-canvas" width="480" height="250"></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.0.0/pixi.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Fredoka One']
+        }
+      });
+    </script>
+    <script src="./js/Main.js"></script>
+    <script src='./js/IntroScreen.js'></script>
+    <script src='./js/LivesAndScore.js'></script>
+    <script src="./js/ParallaxItem.js"></script>
+    <script src="./js/Scroller.js"></script>
+    <script src="./js/FlyingPixie.js"></script>
+    <script src="./js/TreeSprite.js"></script>
+    <script src="./js/Columns.js"></script>
+    <script src="./js/Column.js"></script>
+    <script src="./js/CollisionDetection.js"></script>
+    <script>
+      function init() {
+        console.log("init() called");
+
+        main = new Main();
+      }
+    </script>
+  </body>
+</html>
