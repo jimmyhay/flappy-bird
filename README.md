@@ -1,10 +1,10 @@
-**WELCOME TO JIMMY HAY'S FLAPPY BIRD REMAKE, A PROJECT CREATED FOR GOODBOY**
+**WELCOME TO JIMMY HAY'S FLAPPY BIRD REMAKE**
 
 ---
 
 You can open the game either by going to the following url:
 
-http://www.jimmyhaydev.com/GOODBOY
+http://www.jimmyhaydev.com/flappy
 
 Or by running the **index.html** file that can be found in the **flappy-bird** folder.
 
